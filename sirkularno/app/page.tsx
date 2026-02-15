@@ -1,7 +1,9 @@
+import { Button } from "@/components/ui/button";
 import FooterBar from "@/components/ui/footer";
 import Navbar from "@/components/ui/nav";
 import Sidebox from "@/components/ui/sideboxes";
 import Typography from "@/components/ui/typography";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -38,8 +40,14 @@ export default function Home() {
         </Sidebox>
       </div>
 
-      <div className="bg-green-500"> { /* I am very Green */}
-        <h1>test</h1>
+      <div className="bg-green-500 p-5"> { /* I am very Green */}
+        <div>
+          <Typography variant="h2" isBold isCentered>Lær mer om hvordan du kan hjelpe!</Typography>
+          <Typography isCentered>Vi kan ikke virkelig bli sirkulære uten din hjelp.</Typography>
+          <Link href={"/learn"} className="flex justify-center mt-5"> 
+            <Button variant={"default"} className="p-6">Les mer</Button>
+          </Link>
+        </div>
       </div>
 
       <FooterBar></FooterBar> {/* Footerbar */}
