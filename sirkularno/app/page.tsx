@@ -47,6 +47,10 @@ export default function Home() {
           <Link href={"/learn"} className="flex justify-center mt-5"> 
             <Button variant={"default"} className="p-6">Les mer</Button>
           </Link>
+
+          <Link href={"/it"} className="flex justify-center mt-5"> 
+            <Button variant={"default"} className="p-6">Les mer om Sirkeløkonomien innenfor IT</Button>
+          </Link>
         </div>
       </div>
 
