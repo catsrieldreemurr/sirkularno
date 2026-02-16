@@ -20,6 +20,7 @@ export default function FooterBar(){
                     <Typography variant="h1" isBold isUnderscore>Undersider</Typography>
                     <Link href={"/"} className={linkStyle}>- Main</Link>
                     <Link href={"/learn"} className={linkStyle}>- Les mer</Link>
+                    <Link href={"/it"} className={linkStyle}>- Sirkeløkonomi innenfor IT</Link>
                 </div>
                 
             </div>
