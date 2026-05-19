@@ -10,13 +10,13 @@ export default function Home() {
     <div>
       <Navbar></Navbar>
 
-      {/* Top */}
+      {/* Top */}e
       <div className="relative h-[40rem] w-full flex items-center justify-center"> 
-        <div className="absolute inset-0 bg-[url(/trash.jpg)] bg-cover bg-center opacity-75 -z-10 border-b-5 border-green-800"></div>
+        <div className="absolute inset-0 bg-[url(/hero_main.jpg)] bg-cover bg-center opacity-100 -z-10 border-b-5 border-green-800"></div>
         
-        <div className="bg-white p-8 rounded-lg shadow-xl z-10">
-          <Typography variant="h1" isBold>Sirkulærøkonomi</Typography>
-          <Typography>Hva er det, og hvordan kan vi delta i det?</Typography>
+        <div className="text-white">
+          <Typography isBold isCentered style="text-5xl">IT gjort enkelt.</Typography>
+          <Typography isCentered>IT må ikke være så kjempekomplisert. Vi vil gjøre det enklere.</Typography>
         </div>
       </div>
 

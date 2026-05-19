@@ -8,8 +8,8 @@ const PTSans = PT_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "Sirkulær NO",
-  description: "Lær om Sirkeløkonomi",
+  title: "Nordic Devices",
+  description: "Norskt IT Selskap",
 };
 
 export default function RootLayout({
